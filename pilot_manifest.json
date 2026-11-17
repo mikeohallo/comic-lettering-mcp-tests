@@ -1,0 +1,178 @@
+{
+  "version": "1.0",
+  "description": "Blind pilot inputs only. Answer key withheld.",
+  "cases": [
+    {
+      "case_id": "C04",
+      "image_file": "fixtures/C04.png",
+      "page_context": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons.",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "Your turn.",
+          "delivery": "ordinary"
+        },
+        {
+          "balloon_id": "B2",
+          "speaker": "Bo",
+          "exact_text": "Thanks!",
+          "delivery": "ordinary"
+        }
+      ],
+      "expected_reading_order": [
+        "B1",
+        "B2"
+      ],
+      "target_rule": "L02"
+    },
+    {
+      "case_id": "C05",
+      "image_file": "fixtures/C05.png",
+      "page_context": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons.",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "I found it.",
+          "delivery": "ordinary"
+        }
+      ],
+      "expected_reading_order": [
+        "B1"
+      ],
+      "target_rule": "L02"
+    },
+    {
+      "case_id": "C06",
+      "image_file": "fixtures/C06.png",
+      "page_context": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons.",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "Look here.",
+          "delivery": "ordinary"
+        }
+      ],
+      "expected_reading_order": [
+        "B1"
+      ],
+      "target_rule": "L03"
+    },
+    {
+      "case_id": "C07",
+      "image_file": "fixtures/C07.png",
+      "page_context": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons.",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "Look here.",
+          "delivery": "ordinary"
+        }
+      ],
+      "expected_reading_order": [
+        "B1"
+      ],
+      "target_rule": "L03"
+    },
+    {
+      "case_id": "C08",
+      "image_file": "fixtures/C08.png",
+      "page_context": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons.",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "First we go.",
+          "delivery": "ordinary"
+        },
+        {
+          "balloon_id": "B2",
+          "speaker": "Bo",
+          "exact_text": "Then we rest.",
+          "delivery": "ordinary"
+        }
+      ],
+      "expected_reading_order": [
+        "B1",
+        "B2"
+      ],
+      "target_rule": "L04"
+    },
+    {
+      "case_id": "C09",
+      "image_file": "fixtures/C09.png",
+      "page_context": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons.",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "First we go.",
+          "delivery": "ordinary"
+        },
+        {
+          "balloon_id": "B2",
+          "speaker": "Bo",
+          "exact_text": "Then we rest.",
+          "delivery": "ordinary"
+        }
+      ],
+      "expected_reading_order": [
+        "B1",
+        "B2"
+      ],
+      "target_rule": "L04"
+    },
+    {
+      "case_id": "C10",
+      "image_file": "fixtures/C10.png",
+      "page_context": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons.",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "Great!",
+          "delivery": "ordinary"
+        },
+        {
+          "balloon_id": "B2",
+          "speaker": "Bo",
+          "exact_text": "Yes!",
+          "delivery": "ordinary"
+        }
+      ],
+      "expected_reading_order": [
+        "B1",
+        "B2"
+      ],
+      "target_rule": "L05"
+    },
+    {
+      "case_id": "C11",
+      "image_file": "fixtures/C11.png",
+      "page_context": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons.",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Bo",
+          "exact_text": "Look at Ada!",
+          "delivery": "ordinary"
+        }
+      ],
+      "expected_reading_order": [
+        "B1"
+      ],
+      "target_rule": "L05"
+    }
+  ]
+}
