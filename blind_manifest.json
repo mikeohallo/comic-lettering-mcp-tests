@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "experiment": "comic_lettering_L03_stress_test",
+  "instructions": "Assess only L03 tail construction for the specified delivery mode; no answer key included. All six images 1440x1050 PNG. Character names are printed on shirts; all expected speaker identities and words supplied. For off-panel speech evaluate tail direction to the appropriate frame edge; for thought mode evaluate conventional thought-tail/chain towards thinker, not mouth direction. No fixed tail length percentage. Do not assume conventional mouth tail for legitimate exceptional modes. Verdict PASS, FAIL, UNCLEAR, or N/A, with visual evidence and smallest correction for FAIL. Do not test other categories.",
+  "cases": [
+    {
+      "case_id": "T01",
+      "target_rule": "L03",
+      "image_file": "T01.png",
+      "speech_mode": "ordinary",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "READY TO GO?",
+          "delivery": "ordinary"
+        }
+      ],
+      "context": "One left-to-right panel. Ada wears blue; Bo wears orange. A single balloon is attributed to Ada."
+    },
+    {
+      "case_id": "T02",
+      "target_rule": "L03",
+      "image_file": "T02.png",
+      "speech_mode": "ordinary",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Bo",
+          "exact_text": "ALL SET!",
+          "delivery": "ordinary"
+        }
+      ],
+      "context": "One left-to-right panel. Ada wears blue; Bo wears orange. A single balloon is attributed to Bo."
+    },
+    {
+      "case_id": "T03",
+      "target_rule": "L03",
+      "image_file": "T03.png",
+      "speech_mode": "ordinary",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "LOOK HERE.",
+          "delivery": "ordinary"
+        }
+      ],
+      "context": "One left-to-right panel. Ada wears blue; Bo wears orange. A single balloon is attributed to Ada."
+    },
+    {
+      "case_id": "T04",
+      "target_rule": "L03",
+      "image_file": "T04.png",
+      "speech_mode": "ordinary",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Bo",
+          "exact_text": "I AGREE.",
+          "delivery": "ordinary"
+        }
+      ],
+      "context": "One left-to-right panel. Ada wears blue; Bo wears orange. A single balloon is attributed to Bo."
+    },
+    {
+      "case_id": "T05",
+      "target_rule": "L03",
+      "image_file": "T05.png",
+      "speech_mode": "off-panel",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Rae (off-panel, left of the frame)",
+          "exact_text": "WAIT FOR ME!",
+          "delivery": "off-panel speech"
+        }
+      ],
+      "context": "One left-to-right panel. Bo (orange shirt) is visible. Rae speaks from beyond the LEFT border of the panel; Rae is not depicted."
+    },
+    {
+      "case_id": "T06",
+      "target_rule": "L03",
+      "image_file": "T06.png",
+      "speech_mode": "thought",
+      "panel_id": "P1",
+      "expected_balloons": [
+        {
+          "balloon_id": "B1",
+          "speaker": "Ada",
+          "exact_text": "I HAVE AN IDEA.",
+          "delivery": "thought"
+        }
+      ],
+      "context": "One left-to-right panel. Ada wears blue; Bo wears orange. Balloon contains Ada\u2019s internal thought, not spoken dialogue."
+    }
+  ]
+}
