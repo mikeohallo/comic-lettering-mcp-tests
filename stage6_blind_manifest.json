@@ -1,0 +1,220 @@
+{
+  "experiment": "comic_lettering_v4_cross_rule_smoke_2026_11_17",
+  "version": "1.0",
+  "description": "Blind cross-rule acceptance test for deployed reviewer v4; no answer key, no private or previous comic assets.",
+  "rules": [
+    "L01",
+    "L02",
+    "L03",
+    "L04",
+    "L05",
+    "L06"
+  ],
+  "testing_notes": "One page image and one selected rule per call; focus_rules contains only target_rule; no other rules scored. Exact expected dialogue/speaker from the case manifest. Some test cases were previously evaluated in v3 or the independent illustration reviewer; treat this as a v4 functional regression test, not a novel independent holdout.",
+  "cases": [
+    {
+      "case_id": "C12",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C12.png",
+      "target_rule": "L06",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "What a day!",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C05",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C05.png",
+      "target_rule": "L02",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "I found it.",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "T02",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/T02.png",
+      "target_rule": "L03",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Bo",
+          "text": "ALL SET!",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right panel. Ada wears blue; Bo wears orange. A single balloon is attributed to Bo. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C01",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C01.png",
+      "target_rule": "L01",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "Hello!",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C09",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C09.png",
+      "target_rule": "L04",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "First we go.",
+          "kind": "speech"
+        },
+        {
+          "id": "B2",
+          "speaker": "Bo",
+          "text": "Then we rest.",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C10",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C10.png",
+      "target_rule": "L05",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "Great!",
+          "kind": "speech"
+        },
+        {
+          "id": "B2",
+          "speaker": "Bo",
+          "text": "Yes!",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C13",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C13.png",
+      "target_rule": "L06",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "This is a very long message!",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C04",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C04.png",
+      "target_rule": "L02",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "Your turn.",
+          "kind": "speech"
+        },
+        {
+          "id": "B2",
+          "speaker": "Bo",
+          "text": "Thanks!",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "T04",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/T04.png",
+      "target_rule": "L03",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Bo",
+          "text": "I AGREE.",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right panel. Ada wears blue; Bo wears orange. A single balloon is attributed to Bo. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C08",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C08.png",
+      "target_rule": "L04",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "First we go.",
+          "kind": "speech"
+        },
+        {
+          "id": "B2",
+          "speaker": "Bo",
+          "text": "Then we rest.",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C11",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C11.png",
+      "target_rule": "L05",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Bo",
+          "text": "Look at Ada!",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    },
+    {
+      "case_id": "C02",
+      "image_url": "https://raw.githubusercontent.com/mikeohallo/comic-lettering-mcp-tests/main/C02.png",
+      "target_rule": "L01",
+      "panel": "P1",
+      "balloons": [
+        {
+          "id": "B1",
+          "speaker": "Ada",
+          "text": "Hello!",
+          "kind": "speech"
+        }
+      ],
+      "brief": "One left-to-right comic panel unless otherwise noted. Blue shirt is Ada; orange shirt is Bo. Characters speak from their mouths. The approved lettering style permits regular and expressive balloons. Evaluate ONLY the selected rule; report real visual evidence and any uncertainty."
+    }
+  ]
+}
